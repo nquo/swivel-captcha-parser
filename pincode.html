@@ -1,0 +1,63 @@
+<html>
+<head>
+    <style>
+        body {background-color: powderblue; width: 100%; color:#E20074;}
+
+        .container {
+            width: 300px;
+            margin: auto;;
+            height: 600px;
+
+        }
+
+        .captcha {
+            background-image: url("https://...SCImage?username=user.name");
+        }
+
+        .img {
+            display: block;
+            width: 300px;
+            height: 81px;
+        }
+
+        .block {
+            display: inline-block;
+            height: 81px;
+            width: 28px;
+            background-repeat: no-repeat;
+            background-position-x: 0px;
+            float: left;
+            border: 1px solid #E20074;
+            margin-right: 8px;
+        }
+
+        .cl { clear: both; }
+
+        .position1 { background-position-x: -8px; }
+        .position2 { background-position-x: -36px; }
+        .position3 { background-position-x: -64px; }
+        .position4 { background-position-x: -92px; }
+        .position5 { background-position-x: -120px; }
+        .position6 { background-position-x: -148px; }
+        .position7 { background-position-x: -176px; }
+        .position8 { background-position-x: -204px; }
+        .position9 { background-position-x: -232px; }
+        .position0 { background-position-x: -260px; }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <p>Captcha</p>
+        <div class="captcha img"></div>
+        <p>PIN</p>
+        <div id="pin">
+            <div class="captcha block position0"></div>
+            <div class="captcha block position0"></div>
+            <div class="captcha block position0"></div>
+            <div class="captcha block position0"></div>
+            <div class="cl"></div>
+        </div>
+    </div>
+</body>
+</html>
